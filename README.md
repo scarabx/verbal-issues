@@ -1,10 +1,10 @@
-# Verbal — Bug reports and suggestions
+# Verbal for Fabric 26.3 — Bug reports and suggestions
 
-This is the issue tracker for **Verbal**, a Minecraft mod that presses any keybind when you say its name.
-It covers every version of the mod:
+This is the issue tracker for **Verbal on Fabric, for Minecraft 26.3**: a Minecraft mod that presses any keybind
+when you say its name.
 
-- **Fabric** for Minecraft 26.3
-- **NeoForge** for Minecraft 1.21.1 (coming soon)
+**Playing the NeoForge 1.21.1 version?** Report it in
+[verbal-neoforge-1.21.1-issues](https://github.com/scarabx/verbal-neoforge-1.21.1-issues) instead.
 
 Get it on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/verbal) or
 [Modrinth](https://modrinth.com/mod/verbal).
@@ -14,11 +14,10 @@ anyone can report a problem without joining anything.
 
 ## Reporting a bug
 
-[Open an issue.](https://github.com/scarabx/verbal-issues/issues/new) Please include:
+[Open an issue.](https://github.com/scarabx/verbal-26.3-issues/issues/new) Please include:
 
-1. **The Verbal version and loader.** It is in the file name, e.g. `verbal-1.0.0+26.3.jar` (Fabric)
-   or `verbal-neoforge-1.0.0+1.21.1.jar` (NeoForge).
-2. **Minecraft and loader versions** (Fabric Loader or NeoForge).
+1. **The Verbal version.** It is in the file name, e.g. `verbal-1.0.0+26.3.jar`.
+2. **Fabric Loader and Fabric API versions.**
 3. **Other mods installed**, or at least whether you are in a modpack.
 4. **What you said and what happened.** For example: "I said *open world map* and nothing happened",
    or "I said *jump* and it pressed sneak". Mention your accent or language if words are often misheard.
