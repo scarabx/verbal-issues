@@ -1,0 +1,21 @@
+name: Suggestion
+description: An idea for Verbal.
+labels: ["suggestion"]
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: Which version of Verbal?
+      description: The Minecraft version and mod loader you play Verbal on. It is in the jar's file name.
+      options:
+        - Fabric 26.3
+        - NeoForge 1.21.1
+    validations:
+      required: false
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What it is and how you imagine it working in game.
+    validations:
+      required: true

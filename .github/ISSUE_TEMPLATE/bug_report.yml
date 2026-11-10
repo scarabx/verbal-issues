@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in Verbal is broken or not working as described.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: Which version of Verbal?
+      description: The Minecraft version and mod loader you play Verbal on. It is in the jar's file name.
+      options:
+        - Fabric 26.3
+        - NeoForge 1.21.1
+    validations:
+      required: true
+  - type: input
+    id: mod_version
+    attributes:
+      label: Exact Verbal version
+      description: The full jar file name, e.g. the part after the mod name.
+    validations:
+      required: true
+  - type: input
+    id: loader
+    attributes:
+      label: Loader version
+      description: Fabric Loader (and Fabric API) or NeoForge version.
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: Other mods installed, or the modpack's name.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead - in enough detail that someone else could do the same.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Crash report or log
+      description: If something went wrong, attach .minecraft/crash-reports/... or logs/latest.log (drag the file in).
